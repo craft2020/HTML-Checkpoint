@@ -1,0 +1,62 @@
+html {
+  background-color: palegoldenrod;
+  background-image: url("https://knilt.arcc.albany.edu/images/4/46/Portfolio.png");
+  background-repeat: no-repeat;
+  background-position: 99% 1%;
+  background-size: 5%;
+
+  
+}
+footer {
+  background-color: palegoldenrod;
+  background-image: url("https://pngimg.com/uploads/copyright/small/copyright_PNG57.png");
+  background-repeat: no-repeat;
+  background-position: 42% 99%;
+  background-size: 3%;
+
+  
+}
+
+nav a{
+    display: inline;
+    color:blue;
+    font-size: 20px    
+  }
+p{
+  font-family: roboto;
+ }
+ 
+
+h1{
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: crimson;
+  font-style: italic
+}
+
+footer{
+  background-color:#EAEAEA;
+  text-align: center 
+}
+
+
+.About{
+  font-family:'Times New Roman', Times, serif;
+}
+
+#Work {
+  color:midnightblue
+}
+#Resume {
+  color:green
+}
+#Contact {
+  color:slateblue
+}
+
+.GomycodeMap {
+
+  border: 0; 
+  
+}
+

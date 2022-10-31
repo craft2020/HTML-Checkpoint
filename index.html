@@ -3,18 +3,22 @@
   <head>  
 		<title> El Ayeb Imed </title>
     <link rel="shortcut icon" type="image/png" href="https://play-lh.googleusercontent.com/N0uFh21uAagaV08hIik44etjlp9sTR5ZFygarTe31-XHX0WShgsQE_5zHJMK3O6Gf3bR=w240-h480-rw"/>
-    </head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
     
     <body>
-      <div class="nvbar">
-        <a href="#home"><b>Home</b></a>
-        <a href="#About"><b>About</b></a>
-        <a href="#Work"><b>Work</b></a>
-        <a href="#Resume"><b>Resume</b></a>
-        <a href="#Contact"><b>Contact</b></a>
-      </div>
+      
+       <nav class="Navigate">
+        <a>Home</a>
+        <a href="#About">About</a>
+        <a href="#Work">Work</a>
+        <a href="#Resume">Resume</a>
+        <a href="#Contact">Contact</a>
+
+      </nav>
+      
   <div class="About" id="About">
-    <h1><u><b></b><i>About</i></b></u></h1>
+    <h1>About</h1>
     <p>
       My name is El Ayeb Imed, i am a 46 year old man.<br>
       I am a nice fun and friendly person, I am honest and punctual, 
@@ -26,8 +30,8 @@
       src="https://viadvocacy.com/Portals/0/EasyDNNnews/80/img-motivation-800x4501.jpg" alt="Motivated Person">
   </div>
   
-  <div class="Work" id="Work">
-    <h1><u><b></b><i>Work</i></b></u></h1>
+  <div>
+    <h1 class="Work" id="Work">Work</h1>
     <p>
       I work as a head of treasury department for an industrial company.
     </p>
@@ -35,15 +39,15 @@
       src="https://blog.abcliv.fr/wp-content/uploads/tr%C3%A9sorerie.png" alt="Treasury">
    
   </div>
-  <div class="Resume" id="Resume">
-    <h1><u><b></b><i>Resume</i></b></u></h1>
+  <div>
+    <h1 class="Resume" id="Resume">Resume</h1>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Tt08KmFfIYQ" title="YouTube video player" 
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
   </iframe>
   </div>
-  <div class="Contact" id="Contact">
-    <h1><u><b></b><i>Contact</i></b></u></h1>
+  <div class="Contact">
+    <h1 id="Contact">Contact</h1>
     <form>
       <label>Name:</label>
       <input type="text" name="name" placeholder="Type your name here" />
@@ -70,10 +74,17 @@
       <br>
       <input type="submit" value="Submit" />
     </form>
+    <br>
+    <br>
+    <iframe class="GomycodeMap" width="560" height="315"
+    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=gomycode gabès tunisie&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+
+   
+    </iframe>
   </div>
 <footer>
-  <p><b>Author : </b>El Ayeb Imed</p>
-  <p><a href="imayeb@gmail.com">imayeb@gmail.com</a></p>
+  <p id="auth">Author : El Ayeb Imed</p>
+  <a id="mail" href="imayeb@gmail.com">imayeb@gmail.com</a>
 </footer>
   </body>
 </html>
